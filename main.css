@@ -1,0 +1,108 @@
+.hideMe {
+    position:absolute;
+    display: none;
+    left:0;
+    top:0;
+    width:1px;
+}
+
+body {
+    background-color: burlywood;
+}
+
+.bigOlButtonA{
+    background-color: coral;
+    position: absolute;
+    width: 27.5vw;
+    height: 30vw;
+
+    left: calc(25vw - calc(27.5vw/2));
+    top: calc(40vh - calc(30vw/2));
+
+    text-align: center;
+    font-weight: 900;
+    font-size: 2.5vw;
+
+    border-radius: 50%;
+    border-style: solid;
+    border-width: .5vw;
+
+    border-bottom-width: 2.5vw;
+}
+
+.bigOlButtonB{
+    background-color: coral;
+    position: absolute;
+    width: 27.5vw;
+    height: 30vw;
+
+    left: calc(75vw - calc(27.5vw/2));
+    top: calc(40vh - calc(30vw/2));
+
+    text-align: center;
+    font-weight: 900;
+    font-size: 2.5vw;
+
+    border-radius: 50%;
+    border-style: solid;
+    border-width: .5vw;
+
+    border-bottom-width: 2.5vw;
+}
+
+.bigOlButtonA:active, .bigOlButtonB:active {
+    border-bottom-width: .5vw;
+    height: 27.5vw;
+    top: calc(40vh - calc(25vw/2));
+}
+
+.showTitle {
+    
+    background-color:rgb(255, 228, 196);
+
+    position: absolute;
+    width: 20vw;
+    height: 6vw;
+
+    left:40vw;
+    top: calc(75vh - calc(1vw/2));
+
+    text-align: center;
+    font-weight: 900;
+    font-size: 2vw;
+
+    border-style: solid;
+    border-width: .01vw;
+    border-radius:10px;
+}
+
+.showTitle:hover {
+    background-color: rgb(215, 192, 164);
+}
+
+.showTitle:active {
+    background-color: rgb(159, 142, 121);
+}
+
+
+.title {
+    background-color:bisque;
+
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.5em;
+
+    margin: auto;
+    width: fit-content;
+
+    border-style: solid;
+    padding: 1vw;
+}
+
+.titleContainer {
+    position: absolute;
+    width: 100vw;
+    left: 0;
+
+    top: 90vh;
+}
